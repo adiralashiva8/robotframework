@@ -37,7 +37,7 @@
 </div>
 <script type="text/javascript">removeJavaScriptDisabledWarning();</script>
 <div id="header"></div>
-<div id="statistics-container"></div>
+<!-- <div id="statistics-container"></div> -->
 
 <script type="text/javascript">
 $(document).ready(function() {
@@ -117,7 +117,7 @@ function addExecutionLog(main) {
                      $.tmpl('suiteTemplate', main));
 }
 </script>
-
+<!-- 
 <script type="text/x-jquery-tmpl" id="totalStatisticsRowTemplate">
   <tr class="row-${$item.index}">
     <td class="stats-col-name">
@@ -155,7 +155,7 @@ function addExecutionLog(main) {
     </td>
     {{tmpl($data) 'statColumnsTemplate'}}
   </tr>
-</script>
+</script> -->
 
 <script type="text/x-jquery-tmpl" id="errorHeaderTemplate">
   <h2>{{= testOrTask('{Test}')}} Execution Errors</h2>
